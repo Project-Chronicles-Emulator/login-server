@@ -1,0 +1,934 @@
+{
+  "source_sha256": "e4002be7746485ba5e789c8ac798f48dce016d165e07c0e93e4e4e8e4fd693b6",
+  "method": "IDA-established wrapper vtable: constant ID getter and exact UTF-16 packet label; no sequence inference",
+  "unresolved_named_packets": [],
+  "entries": [
+    {
+      "packet": "WSA2C_WorldEnterRes",
+      "opcode": 1,
+      "vtable_va": "0x14a825aa0",
+      "id_getter_va": "0x14186a540",
+      "name_getter_va": "0x146197030",
+      "name_va": "0x14a824c48",
+      "id_getter_bytes": "b801000000c3cccc"
+    },
+    {
+      "packet": "WSC2A_WorldEnterReq",
+      "opcode": 20001,
+      "vtable_va": "0x14a81eaa0",
+      "id_getter_va": "0x146169d40",
+      "name_getter_va": "0x146169d50",
+      "name_va": "0x14a81eae8",
+      "id_getter_bytes": "b8214e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharListReq",
+      "opcode": 20001,
+      "vtable_va": "0x14a81f7d8",
+      "id_getter_va": "0x146169d40",
+      "name_getter_va": "0x146175540",
+      "name_va": "0x14a81f820",
+      "id_getter_bytes": "b8214e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharCreateReq",
+      "opcode": 20002,
+      "vtable_va": "0x14a79c480",
+      "id_getter_va": "0x145f12ed0",
+      "name_getter_va": "0x145f12f30",
+      "name_va": "0x14a79c4c8",
+      "id_getter_bytes": "b8224e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharDeletePreCheckReq",
+      "opcode": 20003,
+      "vtable_va": "0x14a79c4f0",
+      "id_getter_va": "0x145f12f00",
+      "name_getter_va": "0x145f12f60",
+      "name_va": "0x14a79c538",
+      "id_getter_bytes": "b8234e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharDeleteReq",
+      "opcode": 20004,
+      "vtable_va": "0x14a79c570",
+      "id_getter_va": "0x145f12f10",
+      "name_getter_va": "0x145f12f70",
+      "name_va": "0x14a79c5b8",
+      "id_getter_bytes": "b8244e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharDeleteCancelReq",
+      "opcode": 20005,
+      "vtable_va": "0x14a79c5e0",
+      "id_getter_va": "0x145f12ee0",
+      "name_getter_va": "0x145f12f40",
+      "name_va": "0x14a79c628",
+      "id_getter_bytes": "b8254e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharDeleteImmediateReq",
+      "opcode": 20006,
+      "vtable_va": "0x14a79c660",
+      "id_getter_va": "0x145f12ef0",
+      "name_getter_va": "0x145f12f50",
+      "name_va": "0x14a79c6a8",
+      "id_getter_bytes": "b8264e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_CharSelectReq",
+      "opcode": 20007,
+      "vtable_va": "0x14a81f848",
+      "id_getter_va": "0x145c6c6e0",
+      "name_getter_va": "0x146175550",
+      "name_va": "0x14a81f890",
+      "id_getter_bytes": "b8274e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_ChatReq",
+      "opcode": 20008,
+      "vtable_va": "0x14a78d5f0",
+      "id_getter_va": "0x145d23540",
+      "name_getter_va": "0x145e77f80",
+      "name_va": "0x14a78d638",
+      "id_getter_bytes": "b8284e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_DirectMessageReq",
+      "opcode": 20009,
+      "vtable_va": "0x14a78d658",
+      "id_getter_va": "0x145d92440",
+      "name_getter_va": "0x145e77f90",
+      "name_va": "0x14a78d6a0",
+      "id_getter_bytes": "b8294e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_LookupCharIdByNameReq",
+      "opcode": 20010,
+      "vtable_va": "0x14a78d6d0",
+      "id_getter_va": "0x145e77f60",
+      "name_getter_va": "0x145e77fa0",
+      "name_va": "0x14a78d718",
+      "id_getter_bytes": "b82a4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingSiteContractReq",
+      "opcode": 20011,
+      "vtable_va": "0x14a795fe8",
+      "id_getter_va": "0x145ecf730",
+      "name_getter_va": "0x145ecf840",
+      "name_va": "0x14a796030",
+      "id_getter_bytes": "b82b4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingSiteAreaBoardGetReq",
+      "opcode": 20012,
+      "vtable_va": "0x14a796070",
+      "id_getter_va": "0x145ecf720",
+      "name_getter_va": "0x145ecf830",
+      "name_va": "0x14a7960c0",
+      "id_getter_bytes": "b82c4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingChannelListReq",
+      "opcode": 20013,
+      "vtable_va": "0x14a796108",
+      "id_getter_va": "0x145ecf6e0",
+      "name_getter_va": "0x145ecf7f0",
+      "name_va": "0x14a796150",
+      "id_getter_bytes": "b82d4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingChannelSearchReq",
+      "opcode": 20014,
+      "vtable_va": "0x14a796188",
+      "id_getter_va": "0x145ecf6f0",
+      "name_getter_va": "0x145ecf800",
+      "name_va": "0x14a7961d0",
+      "id_getter_bytes": "b82e4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingChannelVisitReq",
+      "opcode": 20015,
+      "vtable_va": "0x14a796210",
+      "id_getter_va": "0x145ecf700",
+      "name_getter_va": "0x145ecf810",
+      "name_va": "0x14a796258",
+      "id_getter_bytes": "b82f4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingMovePackageListReq",
+      "opcode": 20017,
+      "vtable_va": "0x14a796298",
+      "id_getter_va": "0x145ecf710",
+      "name_getter_va": "0x145ecf820",
+      "name_va": "0x14a7962e0",
+      "id_getter_bytes": "b8314e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_HousingUnlockGetReq",
+      "opcode": 20018,
+      "vtable_va": "0x14a796320",
+      "id_getter_va": "0x145ecf740",
+      "name_getter_va": "0x145ecf850",
+      "name_va": "0x14a796368",
+      "id_getter_bytes": "b8324e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_XigncodeQueryRes",
+      "opcode": 20019,
+      "vtable_va": "0x14a824ca0",
+      "id_getter_va": "0x145f42b30",
+      "name_getter_va": "0x146196ec0",
+      "name_va": "0x14a824c70",
+      "id_getter_bytes": "b8334e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_FriendSearchReq",
+      "opcode": 20020,
+      "vtable_va": "0x14a791d80",
+      "id_getter_va": "0x145eaed10",
+      "name_getter_va": "0x145eaed60",
+      "name_va": "0x14a791dc8",
+      "id_getter_bytes": "b8344e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_FriendAddReq",
+      "opcode": 20021,
+      "vtable_va": "0x14a791df8",
+      "id_getter_va": "0x145eaecd0",
+      "name_getter_va": "0x145eaed20",
+      "name_va": "0x14a791e40",
+      "id_getter_bytes": "b8354e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_FriendRemoveReq",
+      "opcode": 20022,
+      "vtable_va": "0x14a791e68",
+      "id_getter_va": "0x145eaed00",
+      "name_getter_va": "0x145eaed50",
+      "name_va": "0x14a791eb0",
+      "id_getter_bytes": "b8364e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_FriendModifyReq",
+      "opcode": 20023,
+      "vtable_va": "0x14a791ee0",
+      "id_getter_va": "0x145eaecf0",
+      "name_getter_va": "0x145eaed40",
+      "name_va": "0x14a791f28",
+      "id_getter_bytes": "b8374e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_FriendListReq",
+      "opcode": 20024,
+      "vtable_va": "0x14a791f58",
+      "id_getter_va": "0x145eaece0",
+      "name_getter_va": "0x145eaed30",
+      "name_va": "0x14a791fa0",
+      "id_getter_bytes": "b8384e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildJoinableListReq",
+      "opcode": 20025,
+      "vtable_va": "0x14a7949a8",
+      "id_getter_va": "0x145ec28e0",
+      "name_getter_va": "0x145ec2af0",
+      "name_va": "0x14a7949f0",
+      "id_getter_bytes": "b8394e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildSearchReq",
+      "opcode": 20026,
+      "vtable_va": "0x14a794a28",
+      "id_getter_va": "0x145ec2920",
+      "name_getter_va": "0x145ec2b40",
+      "name_va": "0x14a794a70",
+      "id_getter_bytes": "b83a4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildReq",
+      "opcode": 20027,
+      "vtable_va": "0x14a794aa0",
+      "id_getter_va": "0x145ec2910",
+      "name_getter_va": "0x145ec2b30",
+      "name_va": "0x14a794ae8",
+      "id_getter_bytes": "b83b4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildCreateReq",
+      "opcode": 20028,
+      "vtable_va": "0x14a794b08",
+      "id_getter_va": "0x145ec28b0",
+      "name_getter_va": "0x145ec2ac0",
+      "name_va": "0x14a794b50",
+      "id_getter_bytes": "b83c4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildManageReq",
+      "opcode": 20029,
+      "vtable_va": "0x14a794b80",
+      "id_getter_va": "0x145ec28f0",
+      "name_getter_va": "0x145ec2b10",
+      "name_va": "0x14a794bc8",
+      "id_getter_bytes": "b83d4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildMemberManageReq",
+      "opcode": 20030,
+      "vtable_va": "0x14a794bf8",
+      "id_getter_va": "0x145ec2900",
+      "name_getter_va": "0x145ec2b20",
+      "name_va": "0x14a794c40",
+      "id_getter_bytes": "b83e4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildJoinReq",
+      "opcode": 20031,
+      "vtable_va": "0x14a794c78",
+      "id_getter_va": "0x145ec28d0",
+      "name_getter_va": "0x145ec2ae0",
+      "name_va": "0x14a794cc0",
+      "id_getter_bytes": "b83f4e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildLeaveReq",
+      "opcode": 20032,
+      "vtable_va": "0x14a794ce8",
+      "id_getter_va": "0x145c86c00",
+      "name_getter_va": "0x145ec2b00",
+      "name_va": "0x14a794d30",
+      "id_getter_bytes": "b8404e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildDisbandReq",
+      "opcode": 20033,
+      "vtable_va": "0x14a794d58",
+      "id_getter_va": "0x145ec28c0",
+      "name_getter_va": "0x145ec2ad0",
+      "name_va": "0x14a794da0",
+      "id_getter_bytes": "b8414e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildHousingAreaContractReq",
+      "opcode": 20034,
+      "vtable_va": "0x14a7963a0",
+      "id_getter_va": "0x145ecf6a0",
+      "name_getter_va": "0x145ecf7b0",
+      "name_va": "0x14a7963f0",
+      "id_getter_bytes": "b8424e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildHousingSiteAllowMemberReq",
+      "opcode": 20035,
+      "vtable_va": "0x14a796438",
+      "id_getter_va": "0x145ecf6b0",
+      "name_getter_va": "0x145ecf7c0",
+      "name_va": "0x14a796480",
+      "id_getter_bytes": "b8434e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildHousingSiteAreaBoardGetReq",
+      "opcode": 20036,
+      "vtable_va": "0x14a7964d0",
+      "id_getter_va": "0x145ecf6c0",
+      "name_getter_va": "0x145ecf7d0",
+      "name_va": "0x14a796520",
+      "id_getter_bytes": "b8444e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildHousingSiteAssignmentReq",
+      "opcode": 20037,
+      "vtable_va": "0x14a796570",
+      "id_getter_va": "0x145ecf6d0",
+      "name_getter_va": "0x145ecf7e0",
+      "name_va": "0x14a7965c0",
+      "id_getter_bytes": "b8454e0000c3cccc"
+    },
+    {
+      "packet": "WSC2F_GuildHousingAreaContractExtensionReq",
+      "opcode": 20038,
+      "vtable_va": "0x14a796608",
+      "id_getter_va": "0x145e77f50",
+      "name_getter_va": "0x145ecf7a0",
+      "name_va": "0x14a796650",
+      "id_getter_bytes": "b8464e0000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CommonErrorRes",
+      "opcode": 1,
+      "vtable_va": "0x14a82ab20",
+      "id_getter_va": "0x14186a540",
+      "name_getter_va": "0x1461cbf90",
+      "name_va": "0x14a824ce8",
+      "id_getter_bytes": "b801000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_SystemMessageNoti",
+      "opcode": 2,
+      "vtable_va": "0x14a82ab68",
+      "id_getter_va": "0x14189eed0",
+      "name_getter_va": "0x1461cc2d0",
+      "name_va": "0x14a824d18",
+      "id_getter_bytes": "b802000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_Announce",
+      "opcode": 3,
+      "vtable_va": "0x14a82abb0",
+      "id_getter_va": "0x141868410",
+      "name_getter_va": "0x1461cbef0",
+      "name_va": "0x14a824d48",
+      "id_getter_bytes": "b803000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_LobbyUpdateNoti",
+      "opcode": 4,
+      "vtable_va": "0x14a82abf8",
+      "id_getter_va": "0x1418702f0",
+      "name_getter_va": "0x1461cc220",
+      "name_va": "0x14a824d68",
+      "id_getter_bytes": "b804000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FeatureMatrixNoti",
+      "opcode": 5,
+      "vtable_va": "0x14a82ac40",
+      "id_getter_va": "0x142643cb0",
+      "name_getter_va": "0x1461cbfc0",
+      "name_va": "0x14a824d98",
+      "id_getter_bytes": "b805000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharListRes",
+      "opcode": 6,
+      "vtable_va": "0x14a82ac88",
+      "id_getter_va": "0x141a97990",
+      "name_getter_va": "0x1461cbf60",
+      "name_va": "0x14a824dc8",
+      "id_getter_bytes": "b806000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharCreateRes",
+      "opcode": 7,
+      "vtable_va": "0x14a82acd0",
+      "id_getter_va": "0x141915f40",
+      "name_getter_va": "0x1461cbf10",
+      "name_va": "0x14a824df0",
+      "id_getter_bytes": "b807000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharDeletePreCheckRes",
+      "opcode": 8,
+      "vtable_va": "0x14a82ad18",
+      "id_getter_va": "0x141915f50",
+      "name_getter_va": "0x1461cbf40",
+      "name_va": "0x14a824e18",
+      "id_getter_bytes": "b808000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharDeleteRes",
+      "opcode": 9,
+      "vtable_va": "0x14a82ad60",
+      "id_getter_va": "0x142643cc0",
+      "name_getter_va": "0x1461cbf50",
+      "name_va": "0x14a824e50",
+      "id_getter_bytes": "b809000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharDeleteCancelRes",
+      "opcode": 10,
+      "vtable_va": "0x14a82ada8",
+      "id_getter_va": "0x141840eb0",
+      "name_getter_va": "0x1461cbf20",
+      "name_va": "0x14a824e78",
+      "id_getter_bytes": "b80a000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharDeleteImmediateRes",
+      "opcode": 11,
+      "vtable_va": "0x14a82adf0",
+      "id_getter_va": "0x142643cd0",
+      "name_getter_va": "0x1461cbf30",
+      "name_va": "0x14a824eb0",
+      "id_getter_bytes": "b80b000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_CharSelectRes",
+      "opcode": 12,
+      "vtable_va": "0x14a82ae38",
+      "id_getter_va": "0x141915f30",
+      "name_getter_va": "0x1461cbf70",
+      "name_va": "0x14a824ef0",
+      "id_getter_bytes": "b80c000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_ChatNoti",
+      "opcode": 13,
+      "vtable_va": "0x14a82ae80",
+      "id_getter_va": "0x142643ca0",
+      "name_getter_va": "0x1461cbf80",
+      "name_va": "0x14a824f18",
+      "id_getter_bytes": "b80d000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_DirectMessageRes",
+      "opcode": 14,
+      "vtable_va": "0x14a82aec8",
+      "id_getter_va": "0x141e6a5c0",
+      "name_getter_va": "0x1461cbfb0",
+      "name_va": "0x14a824f38",
+      "id_getter_bytes": "b80e000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_DirectMessageNoti",
+      "opcode": 15,
+      "vtable_va": "0x14a82af10",
+      "id_getter_va": "0x142643ce0",
+      "name_getter_va": "0x1461cbfa0",
+      "name_va": "0x14a824f68",
+      "id_getter_bytes": "b80f000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_LookupCharIdByNameRes",
+      "opcode": 16,
+      "vtable_va": "0x14a82af58",
+      "id_getter_va": "0x1418202b0",
+      "name_getter_va": "0x1461cc230",
+      "name_va": "0x14a824f98",
+      "id_getter_bytes": "b810000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingSiteContractRes",
+      "opcode": 17,
+      "vtable_va": "0x14a82afa0",
+      "id_getter_va": "0x14499df10",
+      "name_getter_va": "0x1461cc200",
+      "name_va": "0x14a824fd0",
+      "id_getter_bytes": "b811000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingSiteAreaBoardGetRes",
+      "opcode": 18,
+      "vtable_va": "0x14a82afe8",
+      "id_getter_va": "0x14499df20",
+      "name_getter_va": "0x1461cc1f0",
+      "name_va": "0x14a825010",
+      "id_getter_bytes": "b812000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingChannelListRes",
+      "opcode": 19,
+      "vtable_va": "0x14a82b030",
+      "id_getter_va": "0x1449a53a0",
+      "name_getter_va": "0x1461cc1b0",
+      "name_va": "0x14a825058",
+      "id_getter_bytes": "b813000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingChannelSearchRes",
+      "opcode": 20,
+      "vtable_va": "0x14a82b078",
+      "id_getter_va": "0x144448e60",
+      "name_getter_va": "0x1461cc1c0",
+      "name_va": "0x14a825090",
+      "id_getter_bytes": "b814000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingChannelVisitRes",
+      "opcode": 21,
+      "vtable_va": "0x14a82b0c0",
+      "id_getter_va": "0x1449a53b0",
+      "name_getter_va": "0x1461cc1d0",
+      "name_va": "0x14a8250d0",
+      "id_getter_bytes": "b815000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_ReleaseHousingRes",
+      "opcode": 22,
+      "vtable_va": "0x14a82b108",
+      "id_getter_va": "0x14499df30",
+      "name_getter_va": "0x1461cc2c0",
+      "name_va": "0x14a825110",
+      "id_getter_bytes": "b816000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingMovePackageListRes",
+      "opcode": 23,
+      "vtable_va": "0x14a82b150",
+      "id_getter_va": "0x14499df40",
+      "name_getter_va": "0x1461cc1e0",
+      "name_va": "0x14a825140",
+      "id_getter_bytes": "b817000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_HousingUnlockGetRes",
+      "opcode": 24,
+      "vtable_va": "0x14a82b198",
+      "id_getter_va": "0x141a19430",
+      "name_getter_va": "0x1461cc210",
+      "name_va": "0x14a825180",
+      "id_getter_bytes": "b818000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_XigncodeQueryReq",
+      "opcode": 25,
+      "vtable_va": "0x14a82b1e0",
+      "id_getter_va": "0x14499df50",
+      "name_getter_va": "0x1461cc2e0",
+      "name_va": "0x14a8251b8",
+      "id_getter_bytes": "b819000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FriendSearchRes",
+      "opcode": 26,
+      "vtable_va": "0x14a82b228",
+      "id_getter_va": "0x1449a5390",
+      "name_getter_va": "0x1461cc000",
+      "name_va": "0x14a8251e8",
+      "id_getter_bytes": "b81a000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FriendAddRes",
+      "opcode": 27,
+      "vtable_va": "0x14a82b270",
+      "id_getter_va": "0x1449ce4b0",
+      "name_getter_va": "0x1461cbfd0",
+      "name_va": "0x14a825218",
+      "id_getter_bytes": "b81b000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FriendListRes",
+      "opcode": 28,
+      "vtable_va": "0x14a82b2b8",
+      "id_getter_va": "0x1449ce4c0",
+      "name_getter_va": "0x1461cbfe0",
+      "name_va": "0x14a825240",
+      "id_getter_bytes": "b81c000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FriendRemoveNoti",
+      "opcode": 29,
+      "vtable_va": "0x14a82b300",
+      "id_getter_va": "0x1449ce4d0",
+      "name_getter_va": "0x1461cbff0",
+      "name_va": "0x14a825268",
+      "id_getter_bytes": "b81d000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_FriendUpdateNoti",
+      "opcode": 30,
+      "vtable_va": "0x14a82b348",
+      "id_getter_va": "0x1449ce4e0",
+      "name_getter_va": "0x1461cc010",
+      "name_va": "0x14a825298",
+      "id_getter_bytes": "b81e000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildJoinableListRes",
+      "opcode": 31,
+      "vtable_va": "0x14a82b390",
+      "id_getter_va": "0x1449ce4f0",
+      "name_getter_va": "0x1461cc100",
+      "name_va": "0x14a8252c8",
+      "id_getter_bytes": "b81f000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildSearchRes",
+      "opcode": 32,
+      "vtable_va": "0x14a82b3d8",
+      "id_getter_va": "0x1424303f0",
+      "name_getter_va": "0x1461cc1a0",
+      "name_va": "0x14a825300",
+      "id_getter_bytes": "b820000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildRes",
+      "opcode": 33,
+      "vtable_va": "0x14a82b420",
+      "id_getter_va": "0x1449ce500",
+      "name_getter_va": "0x1461cc190",
+      "name_va": "0x14a825330",
+      "id_getter_bytes": "b821000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildCreateRes",
+      "opcode": 34,
+      "vtable_va": "0x14a82b468",
+      "id_getter_va": "0x1449ce510",
+      "name_getter_va": "0x1461cc020",
+      "name_va": "0x14a825350",
+      "id_getter_bytes": "b822000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildJoinRes",
+      "opcode": 35,
+      "vtable_va": "0x14a82b4b0",
+      "id_getter_va": "0x1449cdb00",
+      "name_getter_va": "0x1461cc0f0",
+      "name_va": "0x14a825380",
+      "id_getter_bytes": "b823000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildJoinNoti",
+      "opcode": 36,
+      "vtable_va": "0x14a82b4f8",
+      "id_getter_va": "0x1449ce520",
+      "name_getter_va": "0x1461cc0e0",
+      "name_va": "0x14a8253a8",
+      "id_getter_bytes": "b824000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildLeaveRes",
+      "opcode": 37,
+      "vtable_va": "0x14a82b540",
+      "id_getter_va": "0x1449ce530",
+      "name_getter_va": "0x1461cc130",
+      "name_va": "0x14a8253d0",
+      "id_getter_bytes": "b825000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildKickNoti",
+      "opcode": 38,
+      "vtable_va": "0x14a82b588",
+      "id_getter_va": "0x1449ce540",
+      "name_getter_va": "0x1461cc110",
+      "name_va": "0x14a8253f8",
+      "id_getter_bytes": "b826000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildLeaveNoti",
+      "opcode": 39,
+      "vtable_va": "0x14a82b5d0",
+      "id_getter_va": "0x1449ce550",
+      "name_getter_va": "0x1461cc120",
+      "name_va": "0x14a825420",
+      "id_getter_bytes": "b827000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildManageRes",
+      "opcode": 40,
+      "vtable_va": "0x14a82b618",
+      "id_getter_va": "0x144448e70",
+      "name_getter_va": "0x1461cc140",
+      "name_va": "0x14a825450",
+      "id_getter_bytes": "b828000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildManageUpdateNoti",
+      "opcode": 41,
+      "vtable_va": "0x14a82b660",
+      "id_getter_va": "0x145dd4a10",
+      "name_getter_va": "0x1461cc150",
+      "name_va": "0x14a825480",
+      "id_getter_bytes": "b829000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildMemberManageRes",
+      "opcode": 42,
+      "vtable_va": "0x14a82b6a8",
+      "id_getter_va": "0x1449cdb10",
+      "name_getter_va": "0x1461cc160",
+      "name_va": "0x14a8254b8",
+      "id_getter_bytes": "b82a000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildMemberManageUpdateNoti",
+      "opcode": 43,
+      "vtable_va": "0x14a82b6f0",
+      "id_getter_va": "0x1449ce560",
+      "name_getter_va": "0x1461cc170",
+      "name_va": "0x14a8254f0",
+      "id_getter_bytes": "b82b000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildMemberUpdateNoti",
+      "opcode": 44,
+      "vtable_va": "0x14a82b738",
+      "id_getter_va": "0x1449ce570",
+      "name_getter_va": "0x1461cc180",
+      "name_va": "0x14a825538",
+      "id_getter_bytes": "b82c000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildExpUpdateNoti",
+      "opcode": 45,
+      "vtable_va": "0x14a82b780",
+      "id_getter_va": "0x1449ce580",
+      "name_getter_va": "0x1461cc050",
+      "name_va": "0x14a825570",
+      "id_getter_bytes": "b82d000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildDisbandRes",
+      "opcode": 46,
+      "vtable_va": "0x14a82b7c8",
+      "id_getter_va": "0x1449ce590",
+      "name_getter_va": "0x1461cc040",
+      "name_va": "0x14a8255a8",
+      "id_getter_bytes": "b82e000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildDisbandNoti",
+      "opcode": 47,
+      "vtable_va": "0x14a82b810",
+      "id_getter_va": "0x1449ce5a0",
+      "name_getter_va": "0x1461cc030",
+      "name_va": "0x14a8255d8",
+      "id_getter_bytes": "b82f000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingAreaContractRes",
+      "opcode": 48,
+      "vtable_va": "0x14a82b858",
+      "id_getter_va": "0x141ae8fd0",
+      "name_getter_va": "0x1461cc090",
+      "name_va": "0x14a825610",
+      "id_getter_bytes": "b830000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingAreaContractNoti",
+      "opcode": 49,
+      "vtable_va": "0x14a82b8a0",
+      "id_getter_va": "0x1449ce5b0",
+      "name_getter_va": "0x1461cc080",
+      "name_va": "0x14a825660",
+      "id_getter_bytes": "b831000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingSiteAllowMemberRes",
+      "opcode": 50,
+      "vtable_va": "0x14a82b8e8",
+      "id_getter_va": "0x14499df60",
+      "name_getter_va": "0x1461cc0b0",
+      "name_va": "0x14a8256b0",
+      "id_getter_bytes": "b832000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingSiteAreaBoardGetRes",
+      "opcode": 51,
+      "vtable_va": "0x14a82b930",
+      "id_getter_va": "0x1449a5380",
+      "name_getter_va": "0x1461cc0c0",
+      "name_va": "0x14a825700",
+      "id_getter_bytes": "b833000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingSiteAssignmentRes",
+      "opcode": 52,
+      "vtable_va": "0x14a82b978",
+      "id_getter_va": "0x1449a5370",
+      "name_getter_va": "0x1461cc0d0",
+      "name_va": "0x14a825750",
+      "id_getter_bytes": "b834000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingAreaContractExtensionRes",
+      "opcode": 53,
+      "vtable_va": "0x14a82b9c0",
+      "id_getter_va": "0x14499df70",
+      "name_getter_va": "0x1461cc070",
+      "name_va": "0x14a8257a0",
+      "id_getter_bytes": "b835000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingAreaContractExtensionNoti",
+      "opcode": 54,
+      "vtable_va": "0x14a82ba08",
+      "id_getter_va": "0x14499df80",
+      "name_getter_va": "0x1461cc060",
+      "name_va": "0x14a825800",
+      "id_getter_bytes": "b836000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_GuildHousingAreaUpdateNoti",
+      "opcode": 55,
+      "vtable_va": "0x14a82ba50",
+      "id_getter_va": "0x1449ce5c0",
+      "name_getter_va": "0x1461cc0a0",
+      "name_va": "0x14a825860",
+      "id_getter_bytes": "b837000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyJoinNoti",
+      "opcode": 56,
+      "vtable_va": "0x14a82ba98",
+      "id_getter_va": "0x14255c320",
+      "name_getter_va": "0x1461cc260",
+      "name_va": "0x14a8258a8",
+      "id_getter_bytes": "b838000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyLeaveNoti",
+      "opcode": 57,
+      "vtable_va": "0x14a82bae0",
+      "id_getter_va": "0x1461be940",
+      "name_getter_va": "0x1461cc270",
+      "name_va": "0x14a8258d0",
+      "id_getter_bytes": "b839000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyMemberUpdateNoti",
+      "opcode": 58,
+      "vtable_va": "0x14a82bb28",
+      "id_getter_va": "0x1461be920",
+      "name_getter_va": "0x1461cc280",
+      "name_va": "0x14a825900",
+      "id_getter_bytes": "b83a000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_ChangePartyUnitNoti",
+      "opcode": 59,
+      "vtable_va": "0x14a82bb70",
+      "id_getter_va": "0x1461be4c0",
+      "name_getter_va": "0x1461cbf00",
+      "name_va": "0x14a825938",
+      "id_getter_bytes": "b83b000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyInvitePopupNoti",
+      "opcode": 60,
+      "vtable_va": "0x14a82bbb8",
+      "id_getter_va": "0x1441543b0",
+      "name_getter_va": "0x1461cc250",
+      "name_va": "0x14a825970",
+      "id_getter_bytes": "b83c000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyRemoveTemporaryNoti",
+      "opcode": 61,
+      "vtable_va": "0x14a82bc00",
+      "id_getter_va": "0x1461be910",
+      "name_getter_va": "0x1461cc2b0",
+      "name_va": "0x14a8259a8",
+      "id_getter_bytes": "b83d000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyRejectInviteNoti",
+      "opcode": 62,
+      "vtable_va": "0x14a82bc48",
+      "id_getter_va": "0x1461be3e0",
+      "name_getter_va": "0x1461cc2a0",
+      "name_va": "0x14a8259e8",
+      "id_getter_bytes": "b83e000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyChannelInviteNoti",
+      "opcode": 63,
+      "vtable_va": "0x14a82bc90",
+      "id_getter_va": "0x1461beb00",
+      "name_getter_va": "0x1461cc240",
+      "name_va": "0x14a825a20",
+      "id_getter_bytes": "b83f000000c3cccc"
+    },
+    {
+      "packet": "WSF2C_PartyMemberWorldStateNoti",
+      "opcode": 64,
+      "vtable_va": "0x14a82bcd8",
+      "id_getter_va": "0x141822360",
+      "name_getter_va": "0x1461cc290",
+      "name_va": "0x14a825a60",
+      "id_getter_bytes": "b840000000c3cccc"
+    }
+  ]
+}

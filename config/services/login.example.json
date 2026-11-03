@@ -1,0 +1,9 @@
+{
+  "bind": "127.0.0.1",
+  "port": 8080,
+  "public_address": "http://127.0.0.1:8080",
+  "game_api_address": "http://127.0.0.1:8082",
+  "authority_port": 8090,
+  "storage": "postgres",
+  "max_http_connections": 1280
+}

@@ -1,0 +1,17 @@
+chronicles_add_module(services/login
+  SOURCES
+    login_router.cpp
+    login_listener.cpp
+  DEPENDS
+    auth
+    distribution
+    net
+    services/discord
+    services/news
+    services/portal_storage
+  LIBRARIES
+    Boost::asio
+    Boost::beast
+    OpenSSL::SSL
+    spdlog::spdlog
+)
