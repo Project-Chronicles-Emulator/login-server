@@ -1,0 +1,5 @@
+out/
+*.local.json
+.env
+.env.*
+!.env.example
