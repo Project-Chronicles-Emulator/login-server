@@ -58,7 +58,7 @@ add_subdirectory(apps)
 install(TARGETS chronicles-login-server RUNTIME DESTINATION . COMPONENT Login)
 install(DIRECTORY "$<TARGET_FILE_DIR:chronicles-login-server>/" DESTINATION . COMPONENT Login
   FILES_MATCHING PATTERN "*.dll" PATTERN "gtest*" EXCLUDE)
-install(FILES "${PROJECT_SOURCE_DIR}/config/services/login.example.json" DESTINATION config COMPONENT Login)
+install(FILES "${PROJECT_SOURCE_DIR}/config/services/login.example.json" DESTINATION config/services COMPONENT Login)
 install(FILES "${PROJECT_SOURCE_DIR}/migrations/001_accounts_characters.sql"
   DESTINATION migrations COMPONENT Login)
 install(FILES "${PROJECT_SOURCE_DIR}/tools/install_database.ps1"
