@@ -236,8 +236,10 @@ int main(int argc, char **argv) {
     native_config.public_address = options.public_address;
     native_config.region = "local";
     native_config.client_version = "hotfix-26.10.18.734";
-    native_config.client_protocol =
-        "b0fa233f08edc242480aa097e76541d4e256bd7641c856c424907eb2ecd91e15";
+    // The recovered protobuf field contains 32 raw fingerprint bytes, not the
+    // 64-character hexadecimal representation used in source configuration.
+    native_config.client_protocol = hex_decode(
+        "b0fa233f08edc242480aa097e76541d4e256bd7641c856c424907eb2ecd91e15");
     NativeAuth native(auth, native_config);
     NewsStore news(options.storage == "postgres" ? connection : std::string{});
     PortalStore content(options.storage == "postgres" ? connection : std::string{});
